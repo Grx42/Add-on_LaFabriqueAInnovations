@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Plugin La Fabrique à innovations</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<style>
+body,html{
+  padding: 0;
+  margin: 0;
+  font-family: 'open-sans', 'lato', sans-serif;
+}
+  header{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 100px;
+    background-color: #cd0051;
+  }
+h1{
+position: absolute;
+top:30px;
+left:250px;
+font-size: 3em;
+font-family: 'Indie Flower', cursive;
+transform: rotate(-10deg);
+}
+.box{
+  display: inline-block;
+  text-align: center;
+  padding:5px 20px 50px 20px;
+  width: 300px;
+  height: auto;
+  margin: 50px;
+  background-color: #eee;
+}
+.titre{
+color: #555;
+}
+a{
+  font-size: 1.5em;
+  color: #eee;
+  line-height: 5px;
+  text-decoration: none;
+}
+button{
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: inherit;
+  background-color: #cd0051;
+  border-bottom: 5px solid #555;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #dc1d5f;
+  border-bottom: 5px solid #888;
+}
+button:hover a{
+  color: #fff;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  color:#555;
+}
+footer p{
+  padding: 30px;
+}
+footer h2{
+  text-align: center;
+}
+hr{
+  margin: auto;
+  width: 50%;
+  color:#eee;
+}
+</style>
+
+<body>
+  <header>
+    <h1>Le plugin!</h1>
+  <img src="logo.png" alt="">
+  </header>
+
+  <center>
+  <div class="box">
+    <div>
+      <div class="titre"><h2>Version Normale</h2></div>
+      <button type="button" name="button"><a href="lfai.crx"><p>Chrome</p></a></button>
+    </div>
+    <br>
+    <div>
+      <button type="button" name="button"><a href="lfai.xpi"><p>Firefox</p></a></button>
+    </div>
+  </div>
+  <div class="box">
+  <div>
+    <div class="titre"><h2>Version Développeur</h2></div>
+    <button type="button" name="button"><a href="lfai_dev.crx"><p>Chrome</p></a></button>
+  </div>
+  <br>
+  <div>
+    <button type="button" name="button"><a href="lfai_dev.xpi"><p>Firefox</p></a></button>
+
+  </div>
+</div>
+
+  </center>
+
+  <footer>
+      <hr>
+    <h2>L'add-on est disponible pour Chrome et Firefox</h2>
+    <p>
+
+Chaque navigateur possède deux versions de l'extension, une version normale et une version dévelopeur reconnaissable par son suffixe _dev
+
+Version normale : Nommée lfai.crx pour Chrome et lfai.xpi pour Firefox, cette version conserve les données d'articles lus, même après la fermeture du navigateur. Elle vérifie
+la présence de nouveaux articles dès l'ouverture du navigateur puis toutes les heures.
+
+Version développeur : Nommée lfai_dev.crx pour Chrome et lfai_dev.xpi pour Firefox, cette version ne conserve pas d'historique. A chaque ouverture du navigateur, elle affiche les dernières news comme si vous ne les aviez jamais lues. Elle vérifie la présence de nouveaux articles toutes les 10 secondes.</p>
+  </footer>
+
+</body>
+</html>
