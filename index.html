@@ -29,13 +29,11 @@ body,html{
     margin-bottom: 100px;
     background-color: #cd0051;
   }
+
 h1{
-position: absolute;
-top:30px;
-left:250px;
-font-size: 3em;
+font-size: 2em;
 font-family: 'Indie Flower', cursive;
-transform: rotate(-10deg);
+transform: rotate(-5deg);
 }
 .box{
   display: inline-block;
@@ -43,8 +41,9 @@ transform: rotate(-10deg);
   padding:5px 20px 50px 20px;
   width: 300px;
   height: auto;
-  margin: 50px;
+  margin: 50px 0;
   background-color: #eee;
+  border-bottom: 8px solid #cd0051;
 }
 .titre{
 color: #555;
@@ -72,15 +71,14 @@ button:hover a{
   color: #fff;
 }
 footer{
-  position: absolute;
-  bottom: 0;
+  margin-top: 100px;
   text-align: left;
   color:#555;
 }
 footer p{
   padding: 30px;
 }
-footer h2{
+footer h3{
   text-align: center;
 }
 hr{
@@ -92,8 +90,8 @@ hr{
 
 <body>
   <header>
-    <h1>Le plugin!</h1>
-  <img src="logo.png" alt="">
+    <img src="logo.png" alt="">
+  <h1>Le plugin!</h1>
   </header>
 
   <center>
@@ -123,10 +121,10 @@ hr{
 
   <footer>
       <hr>
-    <h2>L'add-on est disponible pour Chrome et Firefox</h2>
+    <h3>L'add-on est disponible pour Chrome et Firefox</h3>
     <p>
 
-Chaque navigateur possède deux versions de l'extension, une version normale et une version dévelopeur reconnaissable par son suffixe _dev
+Chaque navigateur possède deux versions de l'extension, une <b>version normale</b> et une <b>version dévelopeur</b> reconnaissable par son suffixe _dev
 
 Version normale : Nommée lfai.crx pour Chrome et lfai.xpi pour Firefox, cette version conserve les données d'articles lus, même après la fermeture du navigateur. Elle vérifie
 la présence de nouveaux articles dès l'ouverture du navigateur puis toutes les heures.
