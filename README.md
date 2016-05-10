@@ -6,7 +6,7 @@ Ne faites pas un `clic droit/enregistrer sous` directement sur la liste des fich
 
 
 ##Téléchargez l'add-on
-Pour vous procurer les fichiers, [Page de téléchargement !](https://htmlpreview.github.io/?https://github.com/Simplon-Narbonne/PlugIn_LaFabrique/blob/master/index.html)
+Pour vous procurer les fichiers, [Page de téléchargement !](https://htmlpreview.github.io/?https://github.com/simplon-patrickm/Add-on_LaFabriqueAInnovations/blob/master/index.html)
 
 
 ##Description
