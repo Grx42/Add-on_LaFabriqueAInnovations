@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Lato';
+    src:  url('fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src:  url('fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
+html, body
+{
+  height: auto;
+  width: 410px;
+  align-items: center;
+  margin:0;
+  overflow: hidden;
+  background: #272827; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #272827 0%, #686b6a 100%, #686b6a 100%, #686b6a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #272827 0%,#686b6a 100%,#686b6a 100%,#686b6a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #272827 0%,#686b6a 100%,#686b6a 100%,#686b6a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272827', endColorstr='#686b6a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.article
+{
+  height: auto;
+  width: 380px;
+  margin-top: 10px;
+  background: #cd0051;
+  margin-bottom: 10px;
+  border-radius:12.5px;
+  margin-left:10px ;
+  margin-right: 10px;
+  transition: all 0.5s ease 0s;
+  padding: 3% 1.5% 3% 1.5%;
+}
+
+.article:hover
+{
+  height: auto;
+  width: 380px;
+  margin-top: 10px;
+  background: #C50049;
+  border-radius:25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease 0s;
+  padding: 3% 1.5% 3% 1.5%;
+}
+
+.titre
+{
+  color: #ecf0f1;
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: 'Quicksand', 'Lato',sans-serif !important;
+  text-align: center;
+}
+
+.paragraphe
+{
+    margin-left: 8%;
+    color: white;
+    margin-top: ;
+    font-family: 'Lato', sans-serif;
+    margin-right: 8%;
+    text-align : justify;
+    font-size: 12px;
+}
+
+.contenu
+{
+  text-decoration: none;
+}
+
+.lien
+{
+  text-decoration: none;
+}
