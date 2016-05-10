@@ -48,12 +48,7 @@ transform: rotate(-5deg);
 .titre{
 color: #555;
 }
-a{
-  font-size: 1.5em;
-  color: #eee;
-  line-height: 5px;
-  text-decoration: none;
-}
+
 button{
   width: 150px;
   height: 50px;
@@ -63,11 +58,18 @@ button{
   border-bottom: 5px solid #555;
   cursor: pointer;
 }
+button p{
+  color: #ddd;
+  font-size: 1.5em;
+  line-height: 5px;
+}
 button:hover{
   background-color: #dc1d5f;
   border-bottom: 5px solid #888;
+  color: #ddd;
+
 }
-button:hover a{
+button:hover p{
   color: #fff;
 }
 footer{
@@ -98,21 +100,21 @@ hr{
   <div class="box">
     <div>
       <div class="titre"><h2>Version Normale</h2></div>
-      <button type="button" name="button"><a href="lfai.crx"><p>Chrome</p></a></button>
+    <a href="lfai.crx"><button type="button" name="button"><p>Chrome</p></button></a>
     </div>
     <br>
     <div>
-      <button type="button" name="button"><a href="lfai.xpi"><p>Firefox</p></a></button>
+      <a href="lfai.xpi"><button type="button" name="button"><p>Firefox</p></button></a>
     </div>
   </div>
   <div class="box">
   <div>
     <div class="titre"><h2>Version Développeur</h2></div>
-    <button type="button" name="button"><a href="lfai_dev.crx"><p>Chrome</p></a></button>
+    <a href="lfai_dev.crx"><button type="button" name="button"><p>Chrome</p></button></a>
   </div>
   <br>
   <div>
-    <button type="button" name="button"><a href="lfai_dev.xpi"><p>Firefox</p></a></button>
+    <a href="lfai_dev.xpi"><button type="button" name="button"><p>Firefox</p></button></a>
 
   </div>
 </div>
