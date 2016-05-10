@@ -5,14 +5,15 @@
 Ne faites pas un `clic droit/enregistrer sous` directement sur la liste des fichiers du dépôt github, vous n'obtiendriez pas des fichiers valides. Il faut les prendre sous format raw. Pour cela, cliquez sur les liens ci-dessous ou cliquez sur le fichier qui vous intéresse puis sur la nouvelle page, cliquez sur `view raw`
 
 
+
 Voici les liens (sur ce dépôt github) :
-
-
 ###### Pour la version Chrome [Cliquez ici](https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/lfai.crx?raw=true)
 ###### Pour la version Chrome dev [Cliquez ici](https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/lfai_dev.crx?raw=true)
 ###### Pour la version Firefox [Cliquez ici](https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/lfai.xpi?raw=true)
 ###### Pour la version Firefox dev [Cliquez ici](https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/lfai_dev.xpi?raw=true)
 
+##Téléchargez l'add-on
+[Page de téléchargement](https://htmlpreview.github.io/?https://github.com/simplon-patrickm/Add-on_LaFabriqueAInnovations/blob/master/index.html)
 
 
 
