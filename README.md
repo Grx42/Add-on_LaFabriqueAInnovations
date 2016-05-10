@@ -2,7 +2,7 @@
 
 ##Téléchargement
 
-[Page de téléchargement](https://htmlpreview.github.io/?https://github.com/simplon-patrickm/Add-on_LaFabriqueAInnovations/blob/master/index.html)
+[Page de téléchargement](https://htmlpreview.github.io/?https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/telechargement/index.html)
 
 #####/!\ Instructions de téléchargement /!\
 Ne faites pas un `clic droit/enregistrer sous` directement sur la liste des fichiers du dépôt github, vous n'obtiendriez pas des fichiers valides. Il faut les prendre sous format raw. Pour cela, cliquez sur les liens ci-dessous ou cliquez sur le fichier qui vous intéresse puis sur la nouvelle page, cliquez sur `view raw`
