@@ -13,7 +13,7 @@ Voici les liens (sur ce dépôt github) :
 ###### Pour la version Firefox dev [Cliquez ici](https://github.com/simplon-gregoryg/Add-on_LaFabriqueAInnovations/blob/master/lfai_dev.xpi?raw=true)
 
 ##Téléchargez l'add-on
-Pour vous procurer les fichiers, [Page de téléchargement](https://htmlpreview.github.io/?https://github.com/simplon-patrickm/Add-on_LaFabriqueAInnovations/blob/master/index.html)
+[Page de téléchargement](https://htmlpreview.github.io/?https://github.com/simplon-patrickm/Add-on_LaFabriqueAInnovations/blob/master/index.html)
 
 
 
